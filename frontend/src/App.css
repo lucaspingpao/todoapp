@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.main-app {
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
+}
+
+.task-list {
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+.update-task {
+  padding: 10px;
+}
+
+.task-input {
+  width: 40%;
+}
+
+.edit-text {
+  width: 95%;
+}
+
+fieldset {
+  margin: 30px 200px 30px 200px;
+  text-align: left;
+}
+
+.task {
+  display: grid;
+  grid-template-columns: 300px 40px 150px 40px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.High {
+  background-color: lightpink;
+}
+
+.Medium {
+  background-color: yellow;
+}
+
+.Low {
+  background-color: lightgreen;
+}
