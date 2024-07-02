@@ -17,4 +17,4 @@ Tech Stack: React, Node.js, Express, PostgreSQL
 
 Design: MaterialUI, Figma
 
-See attached Figma files for design, user personas, and user journeys. 
+Go to ```/design``` to access documents for Figma design, user personas, and user journeys. 
