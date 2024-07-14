@@ -1,14 +1,14 @@
 # Lucas Pao's To-do App
 
-To run the full app on your local device, please run the following on separate terminal windows:
+To run the full app on your local device, please run the following code blocks on separate terminal windows:
 
 ```
-cd backend
+cd backend;
 node index
 ```
 ```
-cd frontend
-npm install
+cd frontend;
+npm install;
 npm start
 ```
 
