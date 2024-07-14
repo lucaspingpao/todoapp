@@ -18,4 +18,4 @@ Design: MaterialUI, Figma
 
 Go to ```/design``` to access documents for Figma design, user personas, and user journeys. 
 
-Find the product demo video here: https://youtu.be/KOXGkAxys9g
+Here's an app walkthrough / product demo video: https://youtu.be/KOXGkAxys9g
