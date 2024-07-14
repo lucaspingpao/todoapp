@@ -59,4 +59,6 @@ app.delete("/tasks/:id", async(req, res) => {
     }
 })
 
-app.listen(8000);
+app.listen(8000, () => {
+    console.log("server has started on port 8000")
+});

@@ -50,7 +50,7 @@ export default function AddTask() {
                 name="priority"
                 id="Low"
                 value="Low"
-                checked={priorityLevel == "Low"}
+                checked={priorityLevel === "Low"}
                 onChange={handlePriority}
               />
               <label for="Low">Low</label>
@@ -61,7 +61,7 @@ export default function AddTask() {
                 name="priority"
                 id="Medium"
                 value="Medium"
-                checked={priorityLevel == "Medium"}
+                checked={priorityLevel === "Medium"}
                 onChange={handlePriority}
               />
               <label for="Medium">Medium</label>
@@ -72,7 +72,7 @@ export default function AddTask() {
                 name="priority"
                 id="High"
                 value="High"
-                checked={priorityLevel == "High"}
+                checked={priorityLevel === "High"}
                 onChange={handlePriority}
               />
               <label for="High">High</label>
