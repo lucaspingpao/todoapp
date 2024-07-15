@@ -17,7 +17,7 @@ export default function AddTask() {
       console.log('here')
       event.preventDefault();
       try {
-        const response = await fetch("http://localhost:8000/tasks", {
+        const response = await fetch("https://todoapp-backend-lucaspao.onrender.com/tasks", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ taskName, priorityLevel })

@@ -16,7 +16,7 @@ export default function Task(props) {
     const handleDone = async (id) => {
         setEdit(false);
         try {
-            await fetch(`http://localhost:8000/tasks/${id}`, {
+            await fetch(`https://todoapp-backend-lucaspao.onrender.com/tasks/${id}`, {
                 method: "PUT",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ taskName })
@@ -28,7 +28,7 @@ export default function Task(props) {
 
     const deleteTask = async (id) => {
         try {
-            await fetch(`http://localhost:8000/tasks/${id}`, {
+            await fetch(`https://todoapp-backend-lucaspao.onrender.com/tasks/${id}`, {
                 method: "DELETE"
             });
             window.location.reload();

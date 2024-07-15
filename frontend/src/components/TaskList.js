@@ -7,7 +7,7 @@ export default function TaskList() {
     useEffect(() => {
       const getTasks = () => {
         try {
-          fetch("http://localhost:8000/tasks")
+          fetch("https://todoapp-backend-lucaspao.onrender.com/tasks")
           .then(response => response.json())
           .then(data => setTasks(data))
         } catch (error) {
